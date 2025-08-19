@@ -1,0 +1,26 @@
+{
+  "name": "kurir-pyramid-website",
+  "version": "1.0.0",
+  "description": "A website project for Kurir Pyramid with a responsive navigation bar using Tailwind CSS.",
+  "main": "src/index.html",
+  "scripts": {
+    "build": "tailwindcss build src/styles/main.css -o dist/styles.css",
+    "watch": "tailwindcss build src/styles/main.css -o dist/styles.css --watch",
+    "start": "live-server"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5"
+  },
+  "keywords": [
+    "kurir",
+    "pyramid",
+    "website",
+    "tailwindcss"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
